@@ -38,7 +38,7 @@ jobs:
   job2:
     runs-on: windows-latest
     steps:
-      - name: Escrever Mensagem
+      - name: Rodar Script
         uses: actions/checkout@v2
       - name: Escrever Mensagem
         run: echo Hello, world!
